@@ -24,4 +24,4 @@ while True:
 
     result = model.invoke(user_input)
     chatHistory.append(AIMessage(content=result))
-    print("AI:", result.content)
+print(chatHistory)
